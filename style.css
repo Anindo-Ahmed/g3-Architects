@@ -188,12 +188,42 @@ nav ul li a{
     color: #727272;
 }
 
+/* Sponsor section style */
+.clients {
+    margin-top: 100px;
+    text-align: center;
+}
+.clients p{
+    font-size: .8rem;
+    font-weight: 400;
+    padding: 18px 0 35px;
+    max-width: 410px;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    max-width: 75%;
+}
 
+/* Footer style */
 
-
-
-
-
+.footer{
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+.footer > div{
+    margin-top: 100px;
+}
+.footer p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #424242;
+    padding: 30px;
+    text-align: center;
+}
 
 
 
