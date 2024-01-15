@@ -25,11 +25,11 @@
 }
 #content-screen{
     max-width: 75%;
+    margin: 0 auto;
 }
 /* Nav section style */
 
 nav{
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,4 +85,24 @@ nav ul li a{
 .hero img{
     padding-bottom: 35px;
     border-radius: 8px;
+}
+
+/* Feature style */
+
+.feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 65px 0px;
+}
+.feature-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+}
+.feature-details{
+    padding-left: 57px;   
+}
+.feature-details p{
+    padding: 18px 0 24px;   
 }
