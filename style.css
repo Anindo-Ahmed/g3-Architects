@@ -7,9 +7,6 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
-:root{
-
-}
 .description{
     font-size: .8rem;
     font-weight: 400;
@@ -100,9 +97,53 @@ nav ul li a{
     grid-template-columns: repeat(2, 1fr);
     gap:20px;
 }
+
 .feature-details{
     padding-left: 57px;   
 }
 .feature-details p{
     padding: 18px 0 24px;   
+}
+
+
+
+
+
+/* Mobile responsive */
+@media screen and (max-width:576px) {
+    nav, .feature{
+        flex-direction: column;
+    }
+    nav ul li {
+        padding: 1.2rem;
+    }
+    .description{
+        width: 90%;
+    }
+    .feature-details{
+        padding: 45px;
+        text-align: center;   
+    }
+    .feature-images img{
+        width: 100%;
+    }
+}
+/* Tablet responsive */
+@media screen and (min-width:577px) and (max-width:960px) {
+    nav, .feature{
+        flex-direction: column;
+    }
+    nav ul li {
+        padding: 1.2rem;
+    }
+    .description{
+        width: 90%;
+    }
+    .feature-details{
+        padding: 45px;
+        text-align: center;   
+    }
+    .feature-images img{
+        width: 100%;
+    }
 }
